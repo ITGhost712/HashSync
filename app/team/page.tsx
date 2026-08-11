@@ -17,8 +17,8 @@ const team = [
   { initials: "UA", name: "Usman Amir", role: "Flutter Developer", bio: "Usman develops cross-platform mobile applications in Flutter with a focus on reliable functionality, product quality, and a consistent user experience." },
   { initials: "AN", name: "Aiman Nisar", role: "Junior Flutter Developer", bio: "Aiman contributes to Flutter application development, feature implementation, testing, and the continuous improvement of mobile product experiences." },
   { initials: "UK", name: "Fahad Khan", role: "Associate Software Engineer", bio: "Fahad supports application engineering across features and integrations, bringing careful implementation and collaborative problem-solving to the team." },
-  { initials: "AT", name: "Irtaza Naqvi", role: "Database Design Analyst", bio: "Irtaza works on database structure and data design, helping products organize, protect, and use information efficiently as they grow." },
-  { initials: "IS", name: "Ijaz Saleem", role: "Shopify Developer", bio: "Ijaz develops and customizes Shopify stores, commerce interfaces, and integrations designed around dependable operations and customer experience." },
+  { initials: "IN", name: "Irtaza Naqvi", role: "Database Design Analyst", bio: "Irtaza works on database structure and data design, helping products organize, protect, and use information efficiently as they grow." },
+  { initials: "IS", name: "Sheikh Faizan", role: "Shopify Developer", bio: "Faizan develops and customizes Shopify stores, commerce interfaces, and integrations designed around dependable operations and customer experience." },
   { initials: "MN", name: "Maheen Nawaz", role: "SQA Specialist", bio: "Maheen focuses on software quality assurance, validating product behavior and helping the team identify issues before they reach users." },
   { initials: "ZF", name: "Zainab Fatima", role: "Business Development Executive", bio: "Zainab connects client needs with HashSync's capabilities, supporting early conversations and long-term relationships with clarity and care." },
 ];
