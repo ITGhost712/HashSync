@@ -1,3 +1,5 @@
+import { SiteFooter, SiteHeader } from "./site-chrome";
+
 const services = [
   { id: "01", title: "Mobile App Development", text: "Production-ready iOS and Android applications—from polished consumer experiences to real-time, subscription, and device-connected products.", tags: ["Flutter", "iOS", "Android"] },
   { id: "02", title: "Web & SaaS", text: "Custom web applications, SaaS platforms, portals, dashboards, and backend systems designed around real users and operational needs.", tags: ["Web apps", "APIs", "Cloud"] },
@@ -26,19 +28,7 @@ const technologies = [
 export default function Home() {
   return (
     <main>
-      <nav className="nav shell" aria-label="Main navigation">
-        <a className="brand" href="/" aria-label="HashSync home">
-          <img src="/hashsync-logo-transparent.png" alt="HashSync" />
-        </a>
-        <div className="nav-links">
-          <a href="/services">Services</a>
-          <a href="/industries">Industries</a>
-          <a href="/team">Team</a>
-          <a href="/about">About</a>
-          <a href="/contact">Contact</a>
-        </div>
-        <a className="button button-small button-dark" href="/contact">Start a project <span>↗</span></a>
-      </nav>
+      <SiteHeader />
 
       <header className="hero shell" id="top">
         <div className="hero-copy">
@@ -148,7 +138,7 @@ export default function Home() {
         <div className="home-team-copy"><p className="eyebrow"><span /> The people behind the product</p><h2>A team that takes the work personally.</h2><p>Clients work directly with people who understand the product, own decisions, and stay accountable through delivery—whether the client is an individual with a first idea or an established company.</p><a className="button button-dark" href="/team">Meet the HashSync team <span>↗</span></a></div>
         <div className="team-preview">
           <article className="team-preview-lead"><img src="/aaziq-ali-shah.png" alt="Aaziq Ali Shah" /><div><b>Aaziq Ali Shah</b><span>CEO</span></div></article>
-          <div className="team-preview-list"><div><i>ZU</i><p><b>Zulkaif Umer Shah</b><span>COO</span></p></div><div><i>AH</i><p><b>Ammara Hashmi</b><span>Manager</span></p></div><div><i>SS</i><p><b>Shariq Ali Shah</b><span>HR Manager</span></p></div><div><i>MM</i><p><b>Muhammad Musa</b><span>Web Developer</span></p></div></div>
+          <div className="team-preview-list"><div><i>ZU</i><p><b>Zulkaif Umer Shah</b><span>COO</span></p></div><div><i>DS</i><p><b>Dur e Sameen</b><span>Lead Software Engineer</span></p></div><div><i>AH</i><p><b>Ammara Hashmi</b><span>UI/UX Designer</span></p></div><div><i>AH</i><p><b>Ammad Hussain</b><span>Cloud Security Consultant</span></p></div><a className="team-preview-more" href="/team">+ 9 more specialists <span>↗</span></a></div>
         </div>
       </section>
 
@@ -180,12 +170,7 @@ export default function Home() {
         <div className="contact-action"><p>Share the idea, challenge, or product you want to improve. We&apos;ll respond with a clear next step.</p><a className="email-link" href="mailto:aaziq@hash-sync.com">aaziq@hash-sync.com <span>↗</span></a><p className="location">Avenue Mall, DHA Phase 1, Islamabad, Pakistan · Available worldwide</p></div>
       </section>
 
-      <footer className="footer shell">
-        <a className="brand footer-brand" href="/"><img src="/hashsync-logo-transparent.png" alt="HashSync" /></a>
-        <p>Product engineering for the real world.</p>
-        <div><a href="/services">Services</a><a href="/industries">Industries</a><a href="/team">Team</a><a href="/about">About</a><a href="/contact">Contact</a></div>
-        <span>© 2026 HashSync</span>
-      </footer>
+      <SiteFooter />
     </main>
   );
 }
