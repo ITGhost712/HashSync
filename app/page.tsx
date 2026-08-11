@@ -27,16 +27,16 @@ export default function Home() {
   return (
     <main>
       <nav className="nav shell" aria-label="Main navigation">
-        <a className="brand" href="#top" aria-label="HashSync home">
-          <img src="/hashsync-logo-light.jpg" alt="HashSync" />
+        <a className="brand" href="/" aria-label="HashSync home">
+          <img src="/hashsync-logo-transparent.png" alt="HashSync" />
         </a>
         <div className="nav-links">
-          <a href="#services">Services</a>
-          <a href="#approach">Approach</a>
-          <a href="#about">About</a>
-          <a href="#process">Process</a>
+          <a href="/services">Services</a>
+          <a href="/industries">Industries</a>
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
         </div>
-        <a className="button button-small button-dark" href="#contact">Start a project <span>↗</span></a>
+        <a className="button button-small button-dark" href="/contact">Start a project <span>↗</span></a>
       </nav>
 
       <header className="hero shell" id="top">
@@ -172,9 +172,9 @@ export default function Home() {
       </section>
 
       <footer className="footer shell">
-        <a className="brand footer-brand" href="#top"><img src="/hashsync-logo-light.jpg" alt="HashSync" /></a>
+        <a className="brand footer-brand" href="/"><img src="/hashsync-logo-transparent.png" alt="HashSync" /></a>
         <p>Product engineering for the real world.</p>
-        <div><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+        <div><a href="/services">Services</a><a href="/industries">Industries</a><a href="/about">About</a><a href="/contact">Contact</a></div>
         <span>© 2026 HashSync</span>
       </footer>
     </main>
