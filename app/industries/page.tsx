@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { PageCTA, SiteFooter, SiteHeader } from "../site-chrome";
 
-export const metadata: Metadata = { title: "Who We Work With | HashSync", description: "HashSync engineers digital products for individuals, founders, startups, SaaS teams, connected-product companies, professional services, and commerce." };
+export const metadata: Metadata = { title: "Who We Help", description: "HashSync engineers digital products for individuals, founders, startups, SaaS teams, connected-product companies, professional services, and commerce." };
 
 const sectors = [
   ["Individuals & Creators", "A direct product-engineering partnership for people with a serious idea, personal venture, independent product, or software concept ready to become real.", "Your idea + Our engineering"],

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { SiteFooter, SiteHeader } from "../site-chrome";
 
-export const metadata: Metadata = { title: "Start a Project | HashSync", description: "Discuss a mobile, web, AI, connected-device, or custom software product with HashSync." };
+export const metadata: Metadata = { title: "Contact", description: "Discuss a mobile, web, AI, connected-device, or custom software product with HashSync." };
 
 export default function ContactPage() {
   return <main><SiteHeader />
