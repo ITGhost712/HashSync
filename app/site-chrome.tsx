@@ -2,7 +2,7 @@ export function SiteHeader() {
   return (
     <nav className="nav shell" aria-label="Main navigation">
       <a className="brand" href="/" aria-label="HashSync home"><img src="/hashsync-logo-transparent.png" alt="HashSync" /></a>
-      <div className="nav-links"><a href="/services">Services</a><a href="/industries">Industries</a><a href="/about">About</a><a href="/contact">Contact</a></div>
+      <div className="nav-links"><a href="/services">Services</a><a href="/industries">Industries</a><a href="/team">Team</a><a href="/about">About</a><a href="/contact">Contact</a></div>
       <a className="button button-small button-dark" href="/contact">Start a project <span>↗</span></a>
     </nav>
   );
@@ -13,7 +13,7 @@ export function SiteFooter() {
     <footer className="footer shell">
       <a className="brand footer-brand" href="/"><img src="/hashsync-logo-transparent.png" alt="HashSync" /></a>
       <p>Product engineering for the real world.</p>
-      <div><a href="/services">Services</a><a href="/industries">Industries</a><a href="/about">About</a><a href="/contact">Contact</a></div>
+      <div><a href="/services">Services</a><a href="/industries">Industries</a><a href="/team">Team</a><a href="/about">About</a><a href="/contact">Contact</a></div>
       <span>© 2026 HashSync</span>
     </footer>
   );

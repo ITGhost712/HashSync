@@ -33,6 +33,7 @@ export default function Home() {
         <div className="nav-links">
           <a href="/services">Services</a>
           <a href="/industries">Industries</a>
+          <a href="/team">Team</a>
           <a href="/about">About</a>
           <a href="/contact">Contact</a>
         </div>
@@ -43,7 +44,7 @@ export default function Home() {
         <div className="hero-copy">
           <p className="eyebrow"><span /> Product engineering company · Islamabad</p>
           <h1>Engineering ideas into <em>real products.</em></h1>
-          <p className="hero-lede">HashSync helps startups and businesses design, build, launch, and scale mobile apps, web platforms, AI-powered software, and connected digital products.</p>
+          <p className="hero-lede">HashSync helps individuals, founders, startups, and businesses design, build, launch, and scale mobile apps, web platforms, AI-powered software, and connected digital products.</p>
           <div className="hero-actions">
             <a className="button button-primary" href="#contact">Discuss your idea <span>↗</span></a>
             <a className="text-link" href="#services">Explore capabilities <span>↓</span></a>
@@ -127,7 +128,7 @@ export default function Home() {
         <div className="shell ceo-grid">
           <div className="ceo-photo-wrap">
             <div className="ceo-accent" />
-            <img className="ceo-photo" src="/aaziq-ali-shah.jpeg" alt="Aaziq Ali Shah, CEO of HashSync" />
+            <img className="ceo-photo" src="/aaziq-ali-shah.png" alt="Aaziq Ali Shah, CEO of HashSync" />
             <div className="ceo-signature"><b>Aaziq Ali Shah</b><span>CEO, HashSync</span></div>
           </div>
           <div className="ceo-message">
@@ -140,6 +141,14 @@ export default function Home() {
             </blockquote>
             <div className="ceo-name"><b>Aaziq Ali Shah</b><span>CEO, HashSync</span></div>
           </div>
+        </div>
+      </section>
+
+      <section className="home-team shell">
+        <div className="home-team-copy"><p className="eyebrow"><span /> The people behind the product</p><h2>A team that takes the work personally.</h2><p>Clients work directly with people who understand the product, own decisions, and stay accountable through delivery—whether the client is an individual with a first idea or an established company.</p><a className="button button-dark" href="/team">Meet the HashSync team <span>↗</span></a></div>
+        <div className="team-preview">
+          <article className="team-preview-lead"><img src="/aaziq-ali-shah.png" alt="Aaziq Ali Shah" /><div><b>Aaziq Ali Shah</b><span>CEO</span></div></article>
+          <div className="team-preview-list"><div><i>ZU</i><p><b>Zulkaif Umer Shah</b><span>COO</span></p></div><div><i>AH</i><p><b>Ammara Hashmi</b><span>Manager</span></p></div><div><i>SS</i><p><b>Shariq Ali Shah</b><span>HR Manager</span></p></div><div><i>MM</i><p><b>Muhammad Musa</b><span>Web Developer</span></p></div></div>
         </div>
       </section>
 
@@ -174,7 +183,7 @@ export default function Home() {
       <footer className="footer shell">
         <a className="brand footer-brand" href="/"><img src="/hashsync-logo-transparent.png" alt="HashSync" /></a>
         <p>Product engineering for the real world.</p>
-        <div><a href="/services">Services</a><a href="/industries">Industries</a><a href="/about">About</a><a href="/contact">Contact</a></div>
+        <div><a href="/services">Services</a><a href="/industries">Industries</a><a href="/team">Team</a><a href="/about">About</a><a href="/contact">Contact</a></div>
         <span>© 2026 HashSync</span>
       </footer>
     </main>
