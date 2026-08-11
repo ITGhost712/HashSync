@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { PageCTA, SiteFooter, SiteHeader } from "../site-chrome";
 
 export const metadata: Metadata = {
-  title: "Our Team | HashSync",
+  title: "Our Team",
   description: "Meet the leadership, management, and engineering professionals behind HashSync products.",
 };
 

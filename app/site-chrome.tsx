@@ -1,11 +1,13 @@
+import Link from "next/link";
+
 export { SiteHeader } from "./site-header";
 
 export function SiteFooter() {
   return (
     <footer className="footer shell">
-      <a className="brand footer-brand" href="/"><img src="/hashsync-logo-transparent.png" alt="HashSync" /></a>
+      <Link className="brand footer-brand" href="/"><img src="/hashsync-logo-transparent.png" alt="HashSync" /></Link>
       <p>Product engineering for the real world.</p>
-      <div><a href="/services">Services</a><a href="/industries">Industries</a><a href="/team">Team</a><a href="/about">About</a><a href="/contact">Contact</a></div>
+      <div><Link href="/">Home</Link><Link href="/services">Services</Link><Link href="/industries">Who We Help</Link><Link href="/team">Our Team</Link><Link href="/about">About Us</Link><Link href="/contact">Contact</Link></div>
       <span>© 2026 HashSync</span>
     </footer>
   );

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { PageCTA, SiteFooter, SiteHeader } from "../site-chrome";
 
-export const metadata: Metadata = { title: "Product Engineering Services | HashSync", description: "Mobile, web, SaaS, AI, connected-device, custom software, and e-commerce product engineering from HashSync." };
+export const metadata: Metadata = { title: "Services", description: "Mobile, web, SaaS, AI, connected-device, custom software, and e-commerce product engineering from HashSync." };
 
 const details = [
   ["01", "Mobile App Development", "Build for iOS and Android without compromising the product experience.", ["Flutter and cross-platform development", "Native iOS and Android integrations", "Firebase, authentication, notifications, and payments", "Bluetooth, sensor, and real-time applications", "App Store and Google Play deployment"]],
