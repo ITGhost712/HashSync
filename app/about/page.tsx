@@ -1,4 +1,4 @@
-eimport type { Metadata } from "next";
+import type { Metadata } from "next";
 import { PageCTA, SiteFooter, SiteHeader } from "../site-chrome";
 
 export const metadata: Metadata = { title: "About Us", description: "Meet HashSync, an Islamabad-based product engineering company led by Aaziq Ali Shah and Zulkaif Umer Shah." };
