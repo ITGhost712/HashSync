@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 };
 
 const team = [
-  { initials: "AS", name: "Aaziq Ali Shah", role: "Chief Executive Officer", bio: "Aaziq leads HashSync's vision and product-engineering philosophy, with direct responsibility for the quality, direction, and delivery of the products the team creates.", image: "/a2.jpg" },
+  { initials: "AS", name: "Aaziq Ali Shah", role: "Chief Executive Officer", bio: "Aaziq leads HashSync's vision and product-engineering philosophy, with direct responsibility for the quality, direction, and delivery of the products the team creates.", image: "/a2.png" },
   { initials: "ZU", name: "Zulkaif Umer Shah", role: "Chief Operating Officer", bio: "Zulkaif oversees day-to-day operations and delivery standards, keeping projects, people, and client communication moving with clarity and consistency." },
   { initials: "DS", name: "Dur e Sameen", role: "Lead Software Engineer", bio: "Dur e Sameen leads software engineering execution, helping the team make sound technical decisions and deliver dependable products across complex requirements." },
   { initials: "FH", name: "Maham Shabbir", role: "UI/UX Designer", bio: "Maham shapes clear, thoughtful interfaces and user journeys that turn product requirements into accessible and polished digital experiences." },
