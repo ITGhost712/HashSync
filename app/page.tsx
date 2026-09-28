@@ -118,7 +118,7 @@ export default function Home() {
         <div className="shell ceo-grid">
           <div className="ceo-photo-wrap">
             <div className="ceo-accent" />
-            <img className="ceo-photo" src="/aaziq-ali-shah-studio.jpg" alt="Aaziq Ali Shah, CEO of HashSync" />
+            <img className="ceo-photo" src="/a1.jpg" alt="Aaziq Ali Shah, CEO of HashSync" />
             <div className="ceo-signature"><b>Aaziq Ali Shah</b><span>CEO, HashSync</span></div>
           </div>
           <div className="ceo-message">
@@ -137,7 +137,7 @@ export default function Home() {
       <section className="home-team shell">
         <div className="home-team-copy"><p className="eyebrow"><span /> The people behind the product</p><h2>A team that takes the work personally.</h2><p>Clients work directly with people who understand the product, own decisions, and stay accountable through delivery—whether the client is an individual with a first idea or an established company.</p><a className="button button-dark" href="/team">Meet the HashSync team <span>↗</span></a></div>
         <div className="team-preview">
-          <article className="team-preview-lead"><img src="/aaziq-ali-shah-studio.jpg" alt="Aaziq Ali Shah" /><div><b>Aaziq Ali Shah</b><span>CEO</span></div></article>
+          <article className="team-preview-lead"><img src="/a2.jpg" alt="Aaziq Ali Shah" /><div><b>Aaziq Ali Shah</b><span>CEO</span></div></article>
           <div className="team-preview-list"><div><i>ZU</i><p><b>Zulkaif Umer Shah</b><span>COO</span></p></div><div><i>DS</i><p><b>Dur e Sameen</b><span>Lead Software Engineer</span></p></div><div><i>MS</i><p><b>Maham Shabbir</b><span>UI/UX Designer</span></p></div><div><i>AH</i><p><b>Ammad Hussain</b><span>Cloud Security Consultant</span></p></div><a className="team-preview-more" href="/team">+ 9 more specialists <span>↗</span></a></div>
         </div>
       </section>
